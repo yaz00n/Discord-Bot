@@ -30,10 +30,10 @@ class EnterpriseConfigurationManager {
              * Configure your Lavalink server for audio processing
              */
             lavalink: {
-                host: EnvironmentVariableProcessor.LAVALINK_HOST || "5.39.63.207", 
-                port: EnvironmentVariableProcessor.LAVALINK_PORT || 8262,       
-                password: EnvironmentVariableProcessor.LAVALINK_PASSWORD || "glace", 
-                secure: EnvironmentVariableProcessor.LAVALINK_SECURE === 'true' || false
+                host: EnvironmentVariableProcessor.LAVALINK_HOST || "helya.wisp.uno", 
+                port: EnvironmentVariableProcessor.LAVALINK_PORT || 13374,       
+                password: EnvironmentVariableProcessor.LAVALINK_PASSWORD || "novaloungehosting", 
+                secure: EnvironmentVariableProcessor.LAVALINK_SECURE === true || 'false'
             },
             
             /**
@@ -42,9 +42,9 @@ class EnterpriseConfigurationManager {
              */
             bot: {
                 prefix: EnvironmentVariableProcessor.BOT_PREFIX || "!",  // 👈 prefix (!, ?, etc)
-                ownerIds: ["1004206704994566164"],      // 👈 ADD YOUR DISCORD ID HERE
+                ownerIds: ["761475113434349569"],      // 👈 ADD YOUR DISCORD ID HERE
                 embedColor: 0x00AE86,               // 👈 Bot embed color (hex)
-                supportServer: "https://discord.gg/xQF9f9yUEM",    // 👈 Your support server link
+                supportServer: "https://discord.gg/Rvaq6xUb",    // 👈 Your support server link
                 defaultStatus: "🎵 Ready for music!"         // 👈 Bot status message
             },
             
@@ -101,3 +101,4 @@ module.exports = primaryApplicationConfiguration;
  * Never share your bot token or database URI publicly!
  * Use environment variables in production!
  */
+
