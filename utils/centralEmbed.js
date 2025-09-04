@@ -12,7 +12,7 @@ class CentralEmbedHandler {
             const channel = await this.client.channels.fetch(channelId);
             
             const embed = new EmbedBuilder()
-            .setAuthor({ name: 'Ultimate Music Control Center', iconURL: 'https://cdn.discordapp.com/emojis/896724352949706762.gif', url: 'https://discord.gg/xQF9f9yUEM' })
+            .setAuthor({ name: 'Music Control Center', iconURL: 'https://cdn.discordapp.com/emojis/896724352949706762.gif', url: 'https://discord.gg/xQF9f9yUEM' })
                 .setDescription([
                     '',
                     '- Simply type a **song name** or **YouTube link** to start the party!',
@@ -57,7 +57,7 @@ class CentralEmbedHandler {
                 .setImage('https://i.ibb.co/DDSdKy31/ezgif-8aec7517f2146d.gif')
                 .setThumbnail('https://cdn.discordapp.com/attachments/1234567890/1234567890/music_note.gif') // Add a cute music note gif
                 .setFooter({ 
-                    text: 'Ultimate Music Bot • Developed By GlaceYT!',
+                    text: 'Developed By Nova Lounge',
                     iconURL: this.client.user.displayAvatarURL()
                 })
                 .setTimestamp();
@@ -218,7 +218,7 @@ class CentralEmbedHandler {
             } else {
            
                 embed = new EmbedBuilder()
-                .setAuthor({ name: 'Ultimate Music Control Center', iconURL: 'https://cdn.discordapp.com/emojis/896724352949706762.gif', url: 'https://discord.gg/xQF9f9yUEM' })
+                .setAuthor({ name: 'Music Control Center', iconURL: 'https://cdn.discordapp.com/emojis/896724352949706762.gif', url: 'https://discord.gg/xQF9f9yUEM' })
                 .setDescription([
                     '',
                     '- Simply type a **song name** or **YouTube link** to start the party!',
@@ -263,7 +263,7 @@ class CentralEmbedHandler {
                 .setImage('https://i.ibb.co/DDSdKy31/ezgif-8aec7517f2146d.gif')
                 .setThumbnail('https://cdn.discordapp.com/attachments/1234567890/1234567890/music_note.gif') // Add a cute music note gif
                 .setFooter({ 
-                    text: 'Ultimate Music Bot • Developed By GlaceYT!',
+                    text: 'Developed By Nova Lounge',
                     iconURL: this.client.user.displayAvatarURL()
                 })
                 .setTimestamp();
@@ -365,3 +365,4 @@ class CentralEmbedHandler {
 }
 
 module.exports = CentralEmbedHandler;
+
