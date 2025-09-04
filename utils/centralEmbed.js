@@ -193,7 +193,7 @@ class CentralEmbedHandler {
                     .setAuthor({ 
                         name: `${trackInfo.title}`, 
                         iconURL: 'https://cdn.discordapp.com/emojis/896724352949706762.gif',
-                        url: 'https://discord.gg/xQF9f9yUEM' 
+                        url: 'https://discord.gg/ygjgQe34Bp' 
                     })
                     .setDescription([
                         `**🎤 Artist:** ${trackInfo.author}`,
@@ -365,4 +365,5 @@ class CentralEmbedHandler {
 }
 
 module.exports = CentralEmbedHandler;
+
 
